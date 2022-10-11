@@ -26,42 +26,42 @@ class Main
             chooseNumber_248 = gets.to_i
             case chooseNumber_248
                when 1
-                  puts "Enter ID: "
+                  print "Enter ID: "
                   id_248 = gets.to_i
-                  puts "Enter nxb:"
+                  print "Enter nxb:"
                   nxb_248 = gets.to_s
-                  puts "Enter number: "
+                  print "Enter number: "
                   number_248 = gets.to_i
-                  puts "Enter author: "
+                  print "Enter author: "
                   author_248 = gets.to_s
-                  puts "Enter page number: "
+                  print "Enter page number: "
                   numerPage_248 = gets.to_i
                   document_248 = Books.new(id_248, nxb_248, number_248, author_248, numerPage_248)
                   managerDocument_248.addDocument(document_248)
 
                when 2
-                  puts "Enter ID: "
+                  print "Enter ID: "
                   id_248 = gets.to_i
-                  puts "Enter nxb:"
+                  print "Enter nxb:"
                   nxb_248 = gets.to_s
-                  puts "Enter number: "
+                  print "Enter number: "
                   number_248 = gets.to_i
-                  puts "Enter Day issue: "
+                  print "Enter Day issue: "
                   dayIssue_248 = gets.to_i
                   
                   newspaper_248 = Newspaper.new(id_248, nxb_248, number_248, dayIssue_248)
                   managerDocument_248.addDocument(newspaper_248)
 
                when 3
-                  puts "Enter ID: "
+                  print "Enter ID: "
                   id_248 = gets.to_i
-                  puts "Enter nxb:"
+                  print "Enter nxb:"
                   nxb_248 = gets.to_s
-                  puts "Enter number: "
+                  print "Enter number: "
                   number_248 = gets.to_i
-                  puts "Enter issue number : "
+                  print "Enter issue number : "
                   issueNumber_248 =  gets.to_i
-                  puts "Enter issue month : "
+                  print "Enter issue month : "
                   issueMonth_248 =  gets.to_i
 
                   journal_248 = Journal.new(id_248, nxb_248, number_248, issueNumber_248, issueMonth_248)
@@ -70,7 +70,7 @@ class Main
          when 2
             puts "Enter a to search book"
             puts "Enter b to search newspaper"
-            puts "Enter a to search journal"
+            puts "Enter c to search journal"
             choise_248 = gets.chomp
 
             # logic something

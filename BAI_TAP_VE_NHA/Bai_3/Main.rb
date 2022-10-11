@@ -24,53 +24,53 @@ while (true)
             khoiThi_248 = gets.to_i
             case khoiThi_248
                 when 1
-                    puts("== To insert Candidate A ==")
-                    puts("*Entern ID: ")
+                    print("== To insert Candidate A ==")
+                    print("*Entern ID: ")
                     soBaoDanh_248 = gets.to_s
                     while (tuyenSinh_248.checkSeriesNumber(thiSinhS_248, soBaoDanh_248) == true)
-                        puts("Registration number already exists! Retype:")
+                        print("Registration number already exists! Retype:")
                         soBaoDanh_248 = gets.to_s
                     end
 
-                    puts("*Enter full name ")
+                    print("*Enter full name ")
                     hoTen_248 = gets.to_s
-                    puts("*Enter address: ")
+                    print("*Enter address: ")
                     diaChi_248 = gets.to_s
-                    puts("*Entern Priority: ")
+                    print("*Entern Priority: ")
                     mucUuTien_248 = gets.to_i
                     khoiA_248 = KhoiA.new(soBaoDanh_248, hoTen_248, diaChi_248, mucUuTien_248)
                     tuyenSinh_248.addStudent(thiSinhS_248, khoiA_248)
                 when 2
-                    puts("== To insert Candidate B ==")
-                    puts("*Entern ID: ")
+                    print("== To insert Candidate B ==")
+                    print("*Entern ID: ")
                     soBaoDanh_248 = gets.to_s
                     while (tuyenSinh_248.checkSeriesNumber(thiSinhS_248, soBaoDanh_248) == true)
-                     puts("Registration number already exists! Retype:")
+                     print("Registration number already exists! Retype:")
                      soBaoDanh_248 = gets.to_s
                     end
 
-                    puts("*Enter full name ")
+                    print("*Enter full name ")
                     hoTen_248 = gets.to_s
-                    puts("*Enter address: ")
+                    print("*Enter address: ")
                     diaChi_248 = gets.to_s
-                    puts("*Entern Priority: ")
+                    print("*Entern Priority: ")
                     mucUuTien_248 = gets.to_i
                     khoiB_248 = KhoiB.new(soBaoDanh_248, hoTen_248, diaChi_248, mucUuTien_248)
                     tuyenSinh_248.addStudent(thiSinhS_248, khoiB_248)
                 when 3
-                     puts("== To insert Candidate C ==")
-                     puts("*Entern ID: ")
+                     print("== To insert Candidate C ==")
+                     print("*Entern ID: ")
                      soBaoDanh_248 = gets.to_s
                      while (tuyenSinh_248.checkSeriesNumber(thiSinhS_248, soBaoDanh_248) == true)
-                        puts("Registration number already exists! Retype:")
+                        print("Registration number already exists! Retype:")
                         soBaoDanh_248 = gets.to_s
                      end
 
-                     puts("*Enter full name ")
+                     print("*Enter full name ")
                      hoTen_248 = gets.to_s
-                     puts("*Enter address: ")
+                     print("*Enter address: ")
                      diaChi_248 = gets.to_s
-                     puts("*Entern Priority: ")
+                     print("*Entern Priority: ")
                      mucUuTien_248 = gets.to_i
                     khoiC_248 = KhoiC.new(soBaoDanh_248, hoTen_248, diaChi_248, mucUuTien_248)
                     tuyenSinh_248.addStudent(thiSinhS_248, khoiC_248)

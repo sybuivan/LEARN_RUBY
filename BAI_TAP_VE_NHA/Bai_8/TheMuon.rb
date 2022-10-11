@@ -15,6 +15,6 @@ class TheMuon < SinhVien
     end
 
     def hienThiThongTin()
-        puts("-- Full Name: #{@hoTen_248} - Age: #{@tuoi_248} - Class: #{lop_248} - Code coupon: #{@maPhieuMuon_248} - Borrowed date: #{@ngayMuon} - Deadline Day: #{@hanTra_248} - Code book: #{@soHieuSach_248}")
+        puts("-- Full Name: #{@hoTen_248} - Age: #{@tuoi_248} - Class: #{lop_248} - Code coupon: #{@maPhieuMuon_248} - Borrowed date: #{@ngayMuon_248} - Deadline Day: #{@hanTra_248} - Code book: #{@soHieuSach_248}")
     end
 end
